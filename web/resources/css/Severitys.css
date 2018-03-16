@@ -1,0 +1,121 @@
+@CHARSET "ISO-8859-1";
+
+
+.setColorWarning {
+	background-color: #00FFFF;
+    background-image: none;
+    color: #000000;
+}
+
+.setColorMinor {
+	background-color: #FFFF00;
+    background-image: none;
+    color: #000000;
+}
+
+.setColorCritical {
+	background-color: #FF0000;
+    background-image: none;
+    color: #000000;
+}
+
+.setColorMajor {
+	background-color: #FFA500;
+    background-image: none;
+    color: #000000;
+}
+
+.setColorClear {
+	background-color: #00FF00;
+    background-image: none;
+    color: #000000;
+}
+
+.setColorUnknown {
+	background-color: #BEBEBE;
+    background-image: none;
+    color: #000000;
+    
+}
+
+
+.setColorBege {
+	background-color: #F5F5DC;
+    background-image: none;
+    color: #000000;
+    
+}
+
+
+
+.setColorWarningInput,
+.setColorWarningInput .ui-selectcheckboxmenu-label,
+.setColorWarningInput .ui-inputfield,
+.setColorWarningInput.ui-inputfield,
+.setColorWarningInput .ui-chkbox-box{
+	background-color: #00FFFF;
+    background-image: none;
+    color: #000000;
+
+}
+
+.setColorMinorInput,
+.setColorMinorInput .ui-selectcheckboxmenu-label,
+.setColorMinorInput .ui-inputfield,
+.setColorMinorInput.ui-inputfield,
+.setColorMinorInput .ui-chkbox-box{
+	background-color: #FFFF00;
+    background-image: none;
+    color: #000000;
+
+}
+
+
+.setColorCriticalInput,
+.setColorCriticalInput .ui-selectcheckboxmenu-label,
+.setColorCriticalInput .ui-inputfield,
+.setColorCriticalInput.ui-inputfield,
+.setColorCriticalInput .ui-chkbox-box{
+	background-color: #FF0000;
+    background-image: none;
+    color: #000000;
+
+}
+
+
+.setColorMajorInput,
+.setColorMajorInput .ui-selectcheckboxmenu-label,
+.setColorMajorInput .ui-inputfield,
+.setColorMajorInput.ui-inputfield,
+.setColorMajorInput .ui-chkbox-box{
+	background-color: #FFA500;
+    background-image: none;
+    color: #000000;
+
+}
+
+
+.setColorClearInput,
+.setColorClearInput .ui-selectcheckboxmenu-label,
+.setColorClearInput .ui-inputfield,
+.setColorClearInput.ui-inputfield,
+.setColorClearInput .ui-chkbox-box{
+	background-color: #00FF00;
+    background-image: none;
+    color: #000000;
+
+}
+
+.setColorUnknownInput,
+.setColorUnknownInput .ui-selectcheckboxmenu-label,
+.setColorUnknownInput .ui-inputfield,
+.setColorUnknownInput.ui-inputfield,
+.setColorUnknownInput .ui-chkbox-box{
+	background-color: #BEBEBE;
+    background-image: none;
+    color: #000000;
+
+}
+
+
+

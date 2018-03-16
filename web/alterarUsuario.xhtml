@@ -1,0 +1,43 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:p="http://primefaces.org/ui"
+                template="/WEB-INF/template.xhtml">
+
+    <ui:define name="content">
+       <!-- Inicio do Formulário -->
+			<div class="row">
+				<div class="col-sm-10">
+					
+				<h:form>
+					<div class="form-group col-sm-10">
+						<label>Nome do Funcionário</label>
+						<h:inputText class="form-control" value="#{UsuarioMBean.selecionado.nomeUsuario}" />
+					</div>
+					
+					<div class="form-group col-sm-10">
+						<label>Nome do Usuário</label>
+						<h:inputText class="form-control" value="#{UsuarioMBean.selecionado.usuario}"/>		
+					</div>
+					
+					<div class="form-group col-sm-10">
+						<label>Senha</label>
+						<p:password value="#{UsuarioMBean.selecionado.senha}" styleClass="form-control" style="border-radius: 1; margin-bottom: 10px" ></p:password>
+					</div>
+					
+					<div class="row">
+						<div class="col-sm-10">
+							<p:commandButton ajax="false" value="Alterar" class="btn btn-primary" action="#{UsuarioMBean.alterar()}" />
+							<p:spacer width="5px" />
+							<p:commandButton ajax="false" value="Cancelar" class="btn btn-default" action="dashboard.xhtml" />
+						</div>
+					</div>
+				</h:form>
+				</div>
+            </div>
+        
+    </ui:define>
+
+</ui:composition>
+

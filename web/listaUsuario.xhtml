@@ -1,0 +1,51 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:p="http://primefaces.org/ui"
+                template="/WEB-INF/template.xhtml">
+
+<ui:define name="title">Consulta de Usuários</ui:define>
+
+    <ui:define name="content">
+            <!-- Inicio da Tabela -->
+            <p:growl id="growl" showDetail="true" sticky="true" />
+		<h:form>
+			<div class="col-md-12">
+                    <div class="table table-bordered table-hover table-striped">
+		
+		
+	 	<h:dataTable value="#{UsuarioMBean.lista}" var="usu" styleClass="table table-striped" 
+	 		selectionMode="single" selection="#{UsuarioMBean.selecionado}">
+	 		<h:column>
+    			<f:facet name="header">ID</f:facet>
+    				<h:outputText value="#{usu.idUsuario}" />
+  			</h:column>
+  			<h:column>
+    			<f:facet name="header">Nome do Funcionário</f:facet>
+    				<h:outputText value="#{usu.nomeUsuario}" />
+  			</h:column>
+  			<h:column>
+    			<f:facet name="header">Usuário</f:facet>
+    				<h:outputText value="#{usu.usuario}" />
+  			</h:column>
+  			<h:column>
+    			<f:facet name="header">Senha</f:facet>
+    				<h:outputText value="#{usu.senha}" />
+  			</h:column>
+  			
+  			<h:column>
+    			<f:facet name="header">Ações</f:facet>
+		   			<p:commandButton value="Editar" action="alterarUsuario.xhtml" ajax="false" class="btn btn-success btn-xs">
+		   				<f:setPropertyActionListener value="#{usu}" target="#{UsuarioMBean.selecionado}"/>
+		   			</p:commandButton>              
+  			</h:column>
+  			
+		</h:dataTable>
+		</div>
+	</div>
+</h:form>
+				<!-- Fim da Tabela -->
+    </ui:define>
+
+</ui:composition>

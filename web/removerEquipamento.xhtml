@@ -1,0 +1,49 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:p="http://primefaces.org/ui"
+                template="/WEB-INF/template.xhtml">
+
+<ui:define name="title">Remover Equipamentos</ui:define>
+
+    <ui:define name="content">
+          <!-- Inicio da Tabela -->
+          <p:growl id="growl" showDetail="true" sticky="true" />
+		<h:form>
+			<div class="col-md-12">
+                    <div class="table table-bordered table-hover table-striped">
+		
+		
+	 	<h:dataTable value="#{EquipamentoMBean.lista}" var="equi" styleClass="table table-striped" 
+	 		selectionMode="single" selection="#{EquipamentoMBean.selecionado}">
+	 		<h:column>
+    			<f:facet name="header">ID</f:facet>
+    				<h:outputText value="#{equi.idEquipamento}" />
+  			</h:column>
+  			<h:column>
+    			<f:facet name="header">Nome</f:facet>
+    				<h:outputText value="#{equi.nomeEquipamento}" />
+  			</h:column>
+  			<h:column>
+    			<f:facet name="header">Setor</f:facet>
+    				<h:outputText value="#{equi.setor}" />
+  			</h:column>
+  			<h:column>
+    			<f:facet name="header">Endereço de IP</f:facet>
+    				<h:outputText value="#{equi.enderecoIP}" />
+  			</h:column>
+  			
+  			<h:column>
+    			<f:facet name="header">Ações</f:facet>
+		   			<p:commandButton value="Excluir" action="#{EquipamentoMBean.excluir(equi.idEquipamento)}" ajax="false" class="btn btn-danger btn-xs"/>              
+  			</h:column>
+  			
+		</h:dataTable>
+		</div>
+	</div>
+</h:form>
+				<!-- Fim da Tabela -->
+    </ui:define>
+
+</ui:composition>

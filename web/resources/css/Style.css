@@ -1,0 +1,690 @@
+body{
+    min-width: 1100px;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.ui-widget {
+    font-size: 75%;
+}
+
+.themeMenu {
+    overflow: auto;
+}
+
+
+.textTitlePages {
+    FONT-SIZE: 14pt;
+}
+
+
+
+.ui-layout-north {
+    z-index: 20 !important;
+    overflow: visible;
+    border: 0;
+}
+
+.ui-layout-north .ui-layout-unit-content {
+    overflow: visible;
+    padding: 0;
+    border: 0;
+}
+
+.ui-layout-south {
+    border: 0;
+    padding: 0;
+}
+
+.textProductName {
+    FONT-SIZE: 16pt;
+    FONT-FAMILY: Georgia, Times New Roman, Times, serif;
+    COLOR: #336699;
+    TEXT-DECORATION: none;
+}
+
+
+.textFontTitulo {
+    FONT-SIZE: 18px;
+    COLOR: black;
+    TEXT-DECORATION: none;
+    /*COLOR: #336699 ERA UM TOM AZUL*/
+}
+
+
+
+
+
+.linkExportaGrid {
+    FONT-SIZE: 16pt;
+    FONT-FAMILY: Georgia, Times New Roman, Times, serif;
+    COLOR: #336699;
+    TEXT-DECORATION: none;
+    vertical-align: middle;
+}
+
+
+
+#menuDiv .ui-state-hover {
+    background: none !important;
+    color: #0077A9 !important;
+    background-color: #0077A9 !important;
+    border-color: #0077A9 !important;
+}
+
+#menuDiv .ui-menubar {
+    background: #1E4C7B;
+    border: 0;
+    font-size: 75% !important;
+}
+
+#menuDiv .ui-menu-list {
+    background: #1E4C7B;
+    font-size: 75% !important;
+}
+
+#menuDiv .ui-menuitem-text {
+    color: white;
+}
+
+#menuDiv .ui-widget {
+    font-size: 125% !important;
+}
+
+#menuDiv .ui-menu .ui-menu-parent .ui-icon-triangle-1-s {
+    float: left !important;
+}
+
+#menuDiv .ui-menu .ui-menu-parent .ui-icon-triangle-1-s {
+    float: left !important;
+}
+
+#tableHead {
+
+}
+
+#cores {background-image =radial-gradient(#f5d800 30%, /3ecad00 60%,
+    #e0f11f 100%);
+
+
+}
+
+#cabecalho{
+    background: url("../image/Cabecalho_telas.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 0px;
+    margin: 0px;
+    height: auto;
+}
+
+#fonte{
+    font-family:"Times New Roman", Times, serif;
+
+}
+
+#formAboutLayout{
+    background: url("../image/form_About.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+/*Esta parte configura o tamanho dos filtros dos grids*/
+.ui-datatable tbody td.wrap {
+    white-space: normal;
+}
+.column-size_mini .ui-inputtext {
+    width:  45px !important;
+}
+
+.column-size_medio .ui-inputtext {
+    width:  60px;
+}
+
+.column-size_80 .ui-inputtext {
+    width:  80px;
+}
+
+.column-size_250 .ui-inputtext {
+    width:  250px;
+}
+
+
+.column-size_maior .ui-inputtext {
+    width:  300px;
+}
+
+
+.column-size_cbo10 .ui-column-filter{
+    width:  10em;
+}
+
+.column-size_cbo6 .ui-column-filter{
+    width:  6.5em;
+}
+
+
+.filtroGrid150,
+.filtroGrid150 .ui-column-filter {
+    width:  140px !important;
+}
+
+
+
+.filtroGrid250,
+.filtroGrid250 .ui-column-filter {
+    width:  250px !important;
+}
+
+
+/*********************************************************/
+
+
+.requiredColor,
+.requiredColor .ui-selectcheckboxmenu-label,
+.requiredColor .ui-inputfield,
+.requiredColor.ui-inputfield,
+.requiredColor .ui-chkbox-box{
+    background: #FFFFE0;
+    COLOR: #000000;
+
+}
+
+
+.requiredColorPick,
+.requiredColorPick .ui-selectcheckboxmenu-label,
+.requiredColorPick .ui-inputfield,
+.requiredColorPick.ui-inputfield,
+.requiredColorPick .ui-chkbox-box{
+    background: #FFFFE0;
+    COLOR: #000000;
+
+}
+
+
+
+
+
+
+.tamanho21em,
+.tamanho21em .ui-inputfield,
+.tamanho21em .ui-inputfield,
+.tamanho21em .ui-chkbox-box{
+    width: 21em;
+}
+
+
+.tamanho19em,
+.tamanho19em .ui-inputfield,
+.tamanho19em .ui-inputfield,
+.tamanho19em .ui-chkbox-box{
+    width: 18.6em;
+}
+
+
+.tamanho300,
+.tamanho300 .ui-inputfield,
+.tamanho300.ui-inputfield,
+.tamanho300 .ui-chkbox-box{
+    width: 300px;
+}
+
+
+.tamanho280,
+.tamanho280 .ui-inputfield,
+.tamanho280.ui-inputfield,
+.tamanho280 .ui-chkbox-box{
+    width: 280px;
+}
+
+
+
+
+.tamanho320,
+.tamanho320 .ui-inputfield,
+.tamanho320.ui-inputfield,
+.tamanho320 .ui-chkbox-box{
+    width: 320px;
+    height: 46px !important;
+
+}
+
+
+
+
+.tamanho400,
+.tamanho400 .ui-inputfield,
+.tamanho400.ui-inputfield,
+.tamanho400 .ui-chkbox-box{
+    width: 400px;
+}
+
+
+.tamanho120,
+.tamanho120 .ui-selectcheckboxmenu-label,
+.tamanho120 .ui-selectonemenu,
+.tamanho120 .ui-chkbox-box{
+    width: 120px !important;
+}
+
+
+.tamanho200,
+.tamanho200 .ui-selectcheckboxmenu-label,
+.tamanho200 .ui-selectonemenu,
+.tamanho200 .ui-chkbox-box{
+    width: 200px !important;
+}
+
+
+
+.tamanho150,
+.tamanho150 .ui-inputfield,
+.tamanho150.ui-inputfield,
+.tamanho150 .ui-chkbox-box{
+    width: 150px;
+}
+
+.colLabel130{
+    text-align:right !important;
+    width: 130px;
+}
+
+.colLabel120{
+    text-align:right !important;
+    width: 120px;
+}
+
+.colLabel150{
+    text-align:right !important;
+    width: 160px;
+}
+
+
+.colLabel170{
+    text-align:right !important;
+    width: 170px;
+}
+
+.colLabel90{
+    text-align:right !important;
+    width: 90px;
+}
+
+.colCampo{
+    text-align:left;
+}
+
+
+.colCampoTop{
+    text-align:left;
+    vertical-align: top;
+}
+
+
+.colCampoMiddle{
+    text-align:left;
+    vertical-align: middle;
+}
+
+
+
+.colLabel20{
+    text-align:left !important;
+    width: 10px;
+}
+
+
+ .colCampoRight80{
+    text-align:right !important;
+    width: 80px;
+}
+
+
+
+
+.colLabel60{
+    text-align:right !important;
+    width: 60px;
+}
+
+
+
+
+
+.colQuatroCampos{
+    text-align:left;
+    width: 120px;
+}
+
+
+.tam150AlignLeft{
+    text-align:left;
+    width: 150px;
+}
+
+
+.colLabel160{
+    text-align:right !important;
+    width: 160px;
+}
+
+.colLabel120{
+    text-align:right !important;
+    width: 120px;
+}
+
+.colLabel180{
+    text-align:right !important;
+    width: 180px;
+}
+
+.colLabel200{
+    text-align:right !important;
+    width: 200px;
+}
+
+
+.colLabel220{
+    text-align:right !important;
+    width: 220px;
+}
+
+
+.colLabel260{
+    text-align:right !important;
+    width: 260px;
+}
+
+
+.colLabel250{
+    text-align:right !important;
+    width: 247px;
+}
+
+
+.colLabel530{
+    text-align:right !important;
+    width: 530px;
+}
+
+
+.tela_Notificacao_selectManyMenu .ui-selectlistbox-listcontainer{
+    width: 390px !important;
+    height: 66px !important;
+
+}
+
+
+.tela_Bilhete_selectManyMenu .ui-selectlistbox-listcontainer{
+    width: 314px !important;
+    height: 116px !important;
+
+}
+
+
+
+.tela_Report_selectManyMenu{
+    width: 328px;
+
+}
+
+.tela_Report_selectManyMenu .ui-selectlistbox-listcontainer{
+    height: 52px !important;
+}
+
+
+
+.tamanhoColuna120  {
+  width:100px  !important;
+  text-align: center !important;
+}
+
+
+
+.ui-menu.ui-widget {
+    min-width: 210px !important;
+}
+
+
+.tamanhoMenuPrincipal,
+.tamanhoMenuPrincipal .ui-menu-list {
+    min-width: 250px !important;
+}
+
+div.dialogButtons {
+    margin: 20px 0 10px 0;
+}
+
+#loading {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+#menuCanvas ul.ui-menu-list {
+    min-width: 0 !important;
+}
+
+
+.bordaDesabilitada,
+.bordaDesabilitada .ui-inputfield,
+.bordaDesabilitada .ui-chkbox-box{
+    border-color: gray;
+    background-color: white;
+    color: black;
+
+}
+
+
+.fieldDashBoard,
+.fieldDashBoard .ui-widget-content{
+    background: none !important;
+    background-color: #EEE9E9 !important;
+    scrollable:false;
+
+
+}
+
+.tamCol70{
+    width: 70px;
+}
+
+.tamCol100{
+    width: 100px;
+}
+
+.stationAutocompleteMaintenanceWindow INPUT {
+    width: 225px;
+}
+
+.fontTamanho6pt {
+    font-size: 7pt !important;
+}
+
+.PanelMargin {
+    margin-right: 25px;
+    width: 199.2px;
+}
+
+
+
+
+.ui-datatable-hor-scroll .ui-datatable-tablewrapper,.scrolling-div .ui-datatable-tablewrapper
+    {
+    overflow: auto;
+    height: 25% !important;
+}
+
+
+ .colCampoRight{
+    text-align:right !important;
+}
+
+
+
+
+
+/***********************************************************************************/
+
+/*Propriedades que alteram o PICKLIST*/
+
+/*Altera o tamanho e altura do picklist*/
+.tamanhoPickList400Height,
+.tamanhoPickList400Height  .ui-picklist-list{
+    width: 400px !important;
+    height: 500px !important;
+}
+
+
+/*Altera o tamanho do picklist*/
+.tamanhoPickList230,
+.tamanhoPickList230  .ui-picklist-list{
+    width: 230px !important;
+}
+
+
+/*Altera o tamanho do picklist*/
+.tamanhoPickList400,
+.tamanhoPickList400  .ui-picklist-list{
+    width: 400px !important;
+}
+
+
+/*Altera a altura do picklist*/
+.alturaPicklist40,
+.alturaPicklist .ui-picklist-list {
+    height:17.5em !important;
+
+}
+
+ /*Altera a cor dos items do picklist*/
+.colorirPickList,
+.colorirPickList .ui-picklist-item{
+    background-color: #FFFFE0 !important;
+}
+
+
+/*Altera a cor do fundo dos botoes do picklist*/
+.colorirPickListFundo,
+.colorirPickListFundo .ui-picklist-buttons{
+    background-color: #F2F2F2 !important;
+}
+
+
+/*Altera a cor do cabecalho do picklist*/
+.cabecalhoPickListFundoCor,
+.cabecalhoPickListFundoCor .ui-widget-header{
+    background: #DCDCDC none repeat scroll 0% 0%;
+}
+
+/**************************** FIM PICKLIST *******************************************************/
+
+
+
+ /*Altera o espaçamento da borda dos fieldset*/
+ .bordaFieldsetZero,
+ .bordaFieldsetZero  .ui-fieldset .ui-fieldset-legend{
+     padding: 0.5em 0.5em;
+ }
+
+
+/* Altera cor de fundo do fieldset */
+.fundoCinzaFieldset,
+.fundoCinzaFieldset  .ui-widget-content{
+
+    background:#DCDCDC;
+}
+
+
+
+.setColumnColorGray {
+    background-color: #CDC5BF;
+    background-image: none;
+    color: #000000;
+    font-weight:bold;
+}
+
+
+/************************Início Workflow*************************************************/
+
+
+.textBackgroundTitulo {
+    background: #4682B4 !important;
+    FONT-SIZE: 18px;
+    COLOR: white !important;
+    TEXT-DECORATION: none;
+    text-shadow: 0px 0px 0px rgba(255, 255, 255, 0.75) !important;
+    /* background: #336699 !important; */
+
+}
+
+
+
+.InputTextSemBotoes {
+    COLOR: #000000;
+    FONT-SIZE: 18px;
+    TEXT-DECORATION: none;
+    width: 22.9em !important;
+    background: #FFFFE0 !important;
+    color: black;
+    padding: 12px;
+}
+
+
+
+
+
+
+
+.InputTextComBotoes .ui-inplace-display{
+
+    background: #FFFFE0 ;
+    color: black;
+    display: inline;
+    float: left;
+    outline: medium none;
+    padding: 12px;
+    cursor: pointer;
+    border: 1px solid rgb(204, 204, 204) !important;
+    width: 22.9em !important;
+    border: 1px solid #CCC;
+    border-radius: 3px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+
+}
+
+
+
+
+
+/*Altera o tamanho e altura do orderlist*/
+.tamanhoOrderList320Height,
+.tamanhoOrderList320Height  .ui-orderlist-list{
+    width: 340px !important;
+    height: 300px !important;
+}
+
+
+
+
+/************************ fim Workflow*************************************************/

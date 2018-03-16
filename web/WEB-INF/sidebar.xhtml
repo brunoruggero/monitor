@@ -1,0 +1,50 @@
+<ui:composition 
+    xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:f="http://java.sun.com/jsf/core"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:ui="http://java.sun.com/jsf/facelets"
+    xmlns:p="http://primefaces.org/ui"
+    xmlns:po="http://primefaces.org/omega">
+
+    <div class="sidebar">
+        <div class="nano">
+            <div class="nano-content sidebar-scroll-content">
+                <div class="logo">
+                    <p:graphicImage name="images/logo2.png" library="omega-layout" width="156px"/>
+                </div>
+
+                <div class="profile">
+                    <p:graphicImage name="images/user3.png" library="omega-layout" />
+                     <span class="username">#{login.user}</span>
+                    
+                </div>
+
+                <div class="menu">
+                <h:form>
+                    <po:menu>
+                        <p:menuitem id="om_dashboard" value="Dashboard" icon="fa fa-home" outcome="/dashboard"/>
+                        <p:submenu id="om_admin" label="Administrador" icon="fa fa-wrench">
+                            <p:menuitem id="om_revEquip" value="Remover Equipamento" icon="fa fa-recycle" outcome="/removerEquipamento" />
+                            <p:menuitem id="om_revUser" value="Remover Usuário" icon="fa fa-recycle" outcome="/removerUsuario" />
+                        </p:submenu>
+                        
+                        <p:submenu id="om_register" label="Cadastro" icon="fa fa-edit">
+                            <p:menuitem id="om_cadEquip" value="Novo Equipamento" icon="fa fa-pencil" outcome="/cadastroEquipamento" />
+                            <p:menuitem id="om_cadUser" value="Novo Usuário" icon="fa fa-pencil" outcome="/cadastroUsuario" />
+                        </p:submenu>
+                        
+                        <p:submenu id="om_consult" label="Consultar" icon="fa fa-search">
+                           <p:menuitem id="om_listEquip" value="Lista de Equipamentos" icon="fa fa-file-text-o" outcome="/listaEquipamento" />
+                           <p:menuitem id="om_lisUser" value="Lista de Usuários" icon="fa fa-file-text-o" outcome="/listaUsuario" />
+                        </p:submenu>
+                        
+
+                        <p:menuitem id="om_monitor" value="Monitoramento" icon="fa fa-desktop" outcome="/monitoramento"/>
+                    </po:menu>
+                </h:form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</ui:composition>

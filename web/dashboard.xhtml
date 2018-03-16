@@ -1,0 +1,137 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:p="http://primefaces.org/ui"
+                template="/WEB-INF/template.xhtml">
+    
+    <ui:define name="title">Dashboard</ui:define>
+    
+    <ui:define name="head">
+        <script type="text/javascript">
+            //<![CDATA[
+            function skinChart() {
+                this.cfg.shadow = false;
+                this.cfg.title = '';
+                this.cfg.seriesColors = ['#007be5', '#20d077'];
+                this.cfg.grid = {
+                    background: '#ffffff',
+                    borderColor: '#ffffff',
+                    gridLineColor: '#F5F5F5',
+                    shadow: false
+                };
+                this.cfg.axesDefaults = {
+                    rendererOptions: {
+                        textColor: '#666F77'
+                    }
+                };
+                this.cfg.seriesDefaults = {
+                    shadow: false,
+                    lineWidth: 1,
+                    markerOptions: {
+                        shadow: false,
+                        size: 7,
+                        style: 'circle'
+                    }
+                }
+            }
+            //]]>  
+        </script>
+        <style type="text/css">
+            .main-content {
+                padding: 0;
+            }
+        </style>
+    </ui:define>
+    
+    <ui:define name="content">
+        
+        <div class="ui-g ui-fluid dashboard">
+         	<div class="ui-g-12 ui-md-6 ui-lg-3">
+                <div class="highlight-box">
+                    <div class="initials" style="background-color:#007be5;color:#00448f">EQ</div>
+                    <div class="card">
+                        <span class="fa fa-archive"></span>
+                        <span>Resgistrados</span>
+                        <span class="count">
+							<span class="totalEquipamento">#{EquipamentoMBean.totalEquipamento()}</span>
+						</span>
+						
+                    </div>
+                </div>
+            </div>
+            <div class="ui-g-12 ui-md-6 ui-lg-3">
+                <div class="highlight-box">
+                    <div class="initials" style="background-color:#ef6262;color:#a83d3b">US</div>
+                    <div class="card">
+                        <span class="fa fa-user"></span>
+                        <span>Resgistrados</span>
+                        <span class="count">
+                        	<span class="totalUsuario">#{UsuarioMBean.totalUsuario()}</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="ui-g-12 ui-md-6 ui-lg-3">
+                <div class="highlight-box">
+                    <div class="initials" style="background-color:#20d077;color:#038d4a">ON</div>
+                    <div class="card">
+                        <span class="fa fa-toggle-on"></span>
+                        <span>Equipamentos</span>
+                        <span class="totalON">21</span>
+                    </div>
+                </div>
+            </div>
+            <div class="ui-g-12 ui-md-6 ui-lg-3">
+                <div class="highlight-box">
+                    <div class="initials" style="background-color:#f9c851;color:#b58c2b">OFF</div>
+                    <div class="card">
+                        <span class="fa fa-toggle-off"></span>
+                        <span>Equipamentos</span>
+                        <span class="totalOFF">60</span>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="ui-g-12 ui-lg-4">
+                <p:panel header="Contacts" style="height:100%">
+                    <ul class="contacts">
+                        <li>
+                            <a href="#">
+                                <p:graphicImage name="images/avatar_1.png" library="omega-layout" width="35"/>
+                                <span class="name">Claire Williams</span>
+                                <span class="email">clare@primefaces-icarus.com</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p:graphicImage name="images/avatar_2.png" library="omega-layout" width="35"/>
+                                <span class="name">Jason Dourne</span>
+                                <span class="email">jason@primefaces-icarus.com</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p:graphicImage name="images/avatar_3.png" library="omega-layout" width="35"/>
+                                <span class="name">Jane Davidson</span>
+                                <span class="email">jane@primefaces-icarus.com</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p:graphicImage name="images/avatar_4.png" library="omega-layout" width="35"/>
+                                <span class="name">Tony Corleone</span>
+                                <span class="email">tony@primefaces-icarus.com</span>
+                            </a>
+                        </li>
+                    </ul>
+                </p:panel>
+            </div>
+
+            
+        </div>
+        
+    </ui:define>
+    
+</ui:composition>

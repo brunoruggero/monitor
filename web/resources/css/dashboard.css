@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+.textFontTitle {
+    FONT-SIZE: 18px;
+    COLOR: black;
+    TEXT-DECORATION: none;
+}
+
+/* override */
+.ui-widget {
+    font-size: 90%;
+}
+
+
+.requiredColor,
+.requiredColor .ui-selectcheckboxmenu-label,
+.requiredColor .ui-inputfield,
+.requiredColor.ui-inputfield,
+.requiredColor.ui-inputarea,
+.requiredColor .ui-chkbox-box{
+    background: #FFFFE0;
+    COLOR: #000000;
+
+}
+
+

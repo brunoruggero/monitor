@@ -1,0 +1,55 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:p="http://primefaces.org/ui"
+                template="/WEB-INF/template.xhtml">
+
+  <ui:define name="title">Monitoramento</ui:define>
+
+    <ui:define name="content">
+         <!-- Inicio da Tabela -->
+        <p:growl id="growl" showDetail="true" sticky="true" />
+		<h:form>
+			<div class="col-md-12">
+                    <div class="table table-bordered table-hover table-striped">
+		
+		
+<h:dataTable value="#{EstadoEquipamentoMBean.lista}" var="est" styleClass="table table-striped" 
+	 		selectionMode="single" selection="#{EstadoEquipamentoMBean.selecionado}">
+	 		<h:column>
+    			<f:facet name="header">ID</f:facet>
+    				<h:outputText value="#{est.idEstado}" />
+  			</h:column>
+  			<h:column>
+    			<f:facet name="header">Nome</f:facet>
+    				<h:outputText value="#{est.nomeEstado}" />
+  			</h:column>
+  			<h:column>
+    			<f:facet name="header">Endereço de IP</f:facet>
+    				<h:outputText value="#{est.ipEquipamento}" />
+  			</h:column>
+  			<h:column>
+    			<f:facet name="header">Status</f:facet>
+    				<h:outputText value="#{est.estadoEqui}" />
+  			</h:column>
+  			<h:column>
+    			<f:facet name="header">Data/Hora</f:facet>
+    				<h:outputText value="#{est.dataEstado}" />
+  			</h:column>
+  			<h:column>
+    			<f:facet name="header">Ações</f:facet>
+		   			<!-- <p:commandButton value="Editar" action="#" ajax="false" class="btn btn-success btn-xs"/>
+		   			<p:spacer width="5px"></p:spacer>  -->
+               		<p:commandButton value="Info" action="#" ajax="false" class="btn btn-info btn-xs"/>
+  			</h:column>
+  			
+		</h:dataTable>
+		</div>
+	</div>
+</h:form>
+<!-- Fim da Tabela -->
+        
+    </ui:define>
+
+</ui:composition>

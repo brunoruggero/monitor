@@ -1,0 +1,970 @@
+/* 
+############################################################################################
+##### Padronizao
+############################################################################################
+*/ /* 
+############################################################################################
+##### Inteface de Autenticação
+############################################################################################
+*/
+.borderBottom,.borderBottomRight {
+	background-color: #FFFFFF;
+	border-bottom: 1px solid #999999;
+}
+
+.borderBottomRight,.borderRight {
+	border-right: 1px solid #999999;
+}
+
+.borderRight {
+	border-right: 1px solid #999999;
+}
+
+/* 
+############################################################################################
+##### ERROS e AVISOS 
+############################################################################################
+*/
+.formWarning {
+	color: red;
+	}
+
+/* 
+############################################################################################
+##### Links e Botoes 
+############################################################################################
+*/
+.ButtonDefault,.buttonDefault,.buttonDefaultDisabled {
+	FONT-SIZE: 8pt;
+}
+
+.linkGlobal {
+	FONT-SIZE: 9pt;
+}
+
+.linkErrorMsg {
+	FONT-SIZE: 10pt;
+}
+
+.linkCell,.linkCellWhite {
+	FONT-SIZE: 9pt;
+}
+
+.linkStep {
+	FONT-SIZE: 8pt;
+}
+
+.ShortcutFoldersLinks,.ShortcutFoldersLinksActive,.ShortcutFoldersLinksDisabled
+	{
+	FONT-SIZE: 8pt;
+}
+
+.toolTip {
+	font-size: 9pt;
+}
+
+.linkColumn {
+	font-size: 9pt;
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: none;
+}
+
+.linkColumn:hover {
+	font-size: 9pt;
+	COLOR: #FFAE31;
+	FONT-WEIGHT: bold;
+}
+
+/* 
+############################################################################################
+##### Cabecalho e rodapé
+############################################################################################
+*/ /*.textProductName {
+  FONT-SIZE: 16pt;
+}
+*/
+.textDate {
+	FONT-SIZE: 9pt;
+}
+
+.textHistory,.textCurrentHistory {
+	FONT-SIZE: 10pt;
+}
+
+.textOverOrange {
+	FONT-SIZE: 8pt;
+}
+
+.linkFooter {
+	FONT-SIZE: 8pt;
+}
+
+/* 
+############################################################################################
+##### Corpo da pagina
+############################################################################################
+*/
+.textDateInput {
+	text-align: center;
+}
+
+.textInput {
+	text-align: left;
+}
+
+.textInput5Character {
+	text-align: center;
+}
+
+.textInputMore5Character {
+	text-align: left;
+}
+
+.textNumberInput {
+	text-align: right;
+}
+
+.textHourInput {
+	text-align: center;
+}
+
+.textDateHourInput {
+	text-align: center;
+}
+
+.textPeriodInput {
+	text-align: center;
+}
+
+.textPageTitle {
+	FONT-SIZE: 10pt;
+}
+
+.textStep,.textStepActive {
+	FONT-SIZE: 8pt;
+}
+
+.textDefault,.textDefaultBold {
+	FONT-SIZE: 10pt;
+}
+
+.textInstructional {
+	FONT-SIZE: 9pt;
+}
+
+.textError {
+	FONT-SIZE: 9pt;
+}
+
+.textRequiredField {
+	FONT-SIZE: 20pt;
+	FONT-WEIGHT: bold;
+    COLOR: #FF0000;
+    TEXT-DECORATION: none;
+}
+
+.textMsgTitle {
+	FONT-SIZE: 12pt;
+}
+
+.textCellBdr {
+	FONT-SIZE: 9pt;
+}
+
+.textTableHeaderBdr {
+	FONT-SIZE: 9pt;
+}
+
+.textFrame {
+	FONT-SIZE: 10pt;
+}
+
+.textReadOnly {
+	FONT-SIZE: 10pt;
+}
+
+.textCellBdrReadOnly {
+	FONT-SIZE: 9pt;
+}
+
+.textTreeview,.textCurrentTreeview {
+	FONT-SIZE: 9pt;
+}
+
+.textTableHeader {
+	FONT-SIZE: 9pt;
+}
+
+.textMath {
+	FONT-SIZE: 12pt;
+}
+
+.textLabel,.textLabelRequired,.textLabelError {
+	FONT-SIZE: 10pt;
+}
+
+.textDateInput,.textNumberInput,.textInput,.textInputReadOnly,.textInput5Character,.textInputMore5Character,.textDateHourInput,.textHourInput,.textPeriodInput
+	{
+	FONT-SIZE: 10pt;
+}
+
+.textList,.textListDisabled,.textListSelected {
+	font-size: 10pt;
+}
+
+.parenthesisLevel1 {
+	font-size: 10pt;
+}
+
+.parenthesisLevel2 {
+	font-size: 11pt;
+}
+
+.parenthesisLevel3 {
+	font-size: 12pt;
+}
+
+.parenthesisLevel4 {
+	font-size: 13pt;
+}
+
+/* 
+############################################################################################
+##### Tabelas
+############################################################################################
+*/
+.innerTable td {
+	border: none;
+}
+
+.tableLabel {
+	FONT-SIZE: 10pt;
+}
+
+.tableHV TD,.tableH TD,.tableV TD,.tableClean TD,.tableHV TH,.tableH TH,.tableV TH,.tableClean TH
+	{
+	FONT-SIZE: 9pt;
+}
+
+.summary {
+	border: 1px solid #000;
+	border-collapse: collapse;
+	text-align: center;
+	font-size: 12px;
+}
+
+.summaryThead {
+	font-weight: bold;
+}
+
+.summary {
+	border: 1px solid #000;
+	border-collapse: collapse;
+	text-align: center;
+	font-size: 12px;
+}
+
+.summaryThead {
+	font-weight: bold;
+}
+
+.filters {
+	font-size: 12px;
+	line-height: 11px;
+	text-align: left;
+}
+
+.filtersThead {
+	text-align: left;
+	font-size: 12px;
+}
+
+.dataTableDefault {
+	width: 970px;
+	text-align: center;
+}
+
+.colDefault {
+	padding: 1px;
+}
+
+/* 
+############################################################################################
+##### Treeview
+############################################################################################
+*/
+.linkTreeview,.linkTreeviewSelected,.linkTreeviewActive {
+	FONT-SIZE: 9pt;
+}
+
+.textTreeview,.textTreeviewDisabled {
+	FONT-SIZE: 9pt;
+}
+
+SPAN.TreeviewSpanArea A {
+	font-size: 10pt;
+}
+
+/* 
+############################################################################################
+##### Redefinição de Tags básicas do HTML
+############################################################################################
+*/
+BODY {
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	FONT-WEIGHT: normal;
+	background-color: #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+	background: url("../image/Cabecalho_telas.png");
+	background-position:top; 
+	background-repeat: no-repeat;
+}
+
+/* 
+############################################################################################
+##### Cabeçalho e rodapé
+############################################################################################
+*/
+.textProductName {
+	FONT-FAMILY: Georgia, Times New Roman, Times, serif;
+	COLOR: #336699;
+	TEXT-DECORATION: none;
+	FONT-SIZE: 16pt;
+}
+
+#linksGlobais {
+	text-align: right;
+}
+
+.textDate {
+	FONT-WEIGHT: bold;
+	COLOR: #000000;
+}
+
+.textHistory {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: none;
+	TEXT-ALIGN: left;
+	FONT-WEIGHT: normal;
+}
+
+.textCurrentHistory {
+	FONT-WEIGHT: bold;
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: none;
+	TEXT-ALIGN: left;
+}
+
+.textOverOrange {
+	FONT-WEIGHT: bold;
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: none;
+}
+
+.textOverOrange:hover {
+	COLOR: #4D7497;
+}
+
+.linkFooter {
+	FONT-WEIGHT: bold;
+	COLOR: #1E4C7B;
+	TEXT-DECORATION: none;
+}
+
+.linkFooter:hover {
+	COLOR: #FFAE31;
+}
+
+.linkTrain {
+	COLOR: #1E4C7B;
+	TEXT-DECORATION: none;
+}
+
+.linkTrain:hover {
+	COLOR: #FFAE31;
+}
+
+/* 
+############################################################################################
+##### Corpo da página
+############################################################################################
+*/
+.textPageTitle {
+	FONT-WEIGHT: bold;
+	COLOR: #3366CC;
+	TEXT-DECORATION: none;
+}
+
+.textStep {
+	font-weight: normal;
+	color: #86B8F0;
+}
+
+.textStepActive {
+	font-weight: normal;
+	color: #FFAE31;
+}
+
+.textLabel,.textLabelRequired,.textLabelError {
+	COLOR: #000000;
+	TEXT-DECORATION: none;
+	TEXT-ALIGN: right;
+}
+
+.textLabelRequired,.textLabelError {
+	font-weight: bold;
+}
+
+.textLabelError {
+	COLOR: #FF0000;
+}
+
+.textDefault,.textDefaultBold {
+	COLOR: #000000;
+	TEXT-DECORATION: none;
+	TEXT-ALIGN: left;
+}
+
+.textDefaultBold {
+	FONT-WEIGHT: bold;
+}
+
+.textInstructional {
+	COLOR: #3366CC;
+	TEXT-DECORATION: none;
+}
+
+.textReadOnly {
+	COLOR: #1E4C7B;
+	TEXT-DECORATION: none;
+	TEXT-ALIGN: left;
+}
+
+.textCellBdrReadOnly {
+	COLOR: #1e4c7b;
+	BORDER: 1px solid #336699;
+}
+
+.textError {
+	COLOR: #FF0000;
+	TEXT-DECORATION: none;
+}
+
+.textRequiredField {
+	FONT-WEIGHT: bold;
+	COLOR: #FF0000;
+	TEXT-DECORATION: none;
+}
+
+.textMsgTitle {
+	FONT-WEIGHT: bold;
+	COLOR: #1E4C7B;
+	TEXT-DECORATION: none;
+}
+
+.textCellBdr {
+	COLOR: #000000;
+	BORDER: 1px solid #336699;
+}
+
+.textTableHeaderBdr {
+	FONT-WEIGHT: bold;
+	COLOR: #FFFFFF;
+	BACKGROUND-COLOR: #336699;
+	TEXT-DECORATION: none;
+	BORDER-TOP: 1px solid #336699;
+	BORDER-RIGHT: 1px solid #e5e5e5;
+	BORDER-LEFT: 1px solid #e5e5e5;
+	BORDER-BOTTOM: 1px solid #e5e5e5;
+}
+
+.textFrame {
+	FONT-WEIGHT: bold;
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: none;
+}
+
+.layerBdr {
+	position: relative;
+	margin: 0pt 0pt;
+	padding: 6pt;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	overflow: auto;
+	border-width: 1px;
+	border-style: inset;
+}
+
+.textTableHeader {
+	FONT-WEIGHT: bold;
+	COLOR: #FFFFFF;
+	BACKGROUND-COLOR: #336699;
+	TEXT-DECORATION: none;
+}
+
+.textMath {
+	COLOR: #000000;
+	TEXT-DECORATION: none;
+}
+
+.textDateInput,.textNumberInput,.textInput,.textInputReadOnly,.textInput5Character,.textInputMore5Character,.textDateHourInput,.textHourInput,.textPeriodInput
+	{
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	background-color: #E6EDF7;
+	COLOR: #000000;
+	text-transform: uppercase;
+}
+
+.textInputDisabled {
+	COLOR: #777777;
+	/* background-color: #DDDDDD;*/
+}
+
+.textInputReadOnly {
+	background-color: transparent;
+	border: none;
+}
+
+.toolTip {
+	color: #000000;
+	background-color: #FFC864;
+	padding: 1px;
+	border: 1px solid #000000;
+}
+
+.spanList {
+	overflow: auto;
+	position: static;
+	z-index: 1;
+	border-style: inset;
+	border-width: 2px;
+	border-top-color: #999999;
+	border-left-color: #999999;
+	background: #e6edf7;
+}
+
+.textList,.textListDisabled,.textListSelected {
+	padding-left: 3pt;
+	color: #000000;
+	text-decoration: none;
+	text-align: left;
+	text-transform: uppercase;
+	background: #e6edf7;
+	cursor: default;
+}
+
+.parenthesisLevel1,.parenthesisLevel2,.parenthesisLevel3,.parenthesisLevel4
+	{
+	font-weight: bold;
+}
+
+.parenthesisLevel1 {
+	color: #86B8F0;
+}
+
+.parenthesisLevel2 {
+	color: #FFAE31;
+}
+
+.parenthesisLevel3 {
+	color: #A49787;
+}
+
+.parenthesisLevel4 {
+	color: #3366CC;
+}
+
+/*
+############################################################################################
+##### Menu Lateral
+############################################################################################
+*/
+.menu,.menuMouseOver,.menuMouseDown {
+	COLOR: #FFFFFF;
+	font-family: arial;
+	font-size: 10pt;
+	font-weight: normal;
+	text-decoration: none;
+	background-color: #1E4C7B;
+	padding-left: 5pt;
+	cursor: default;
+}
+
+.menuMouseOver {
+	color: #000000;
+	background-color: #FFAE31;
+}
+
+.menuMouseDown {
+	color: #1E4C7B;
+	background-color: #A5AEC6;
+}
+
+/*
+############################################################################################
+##### Backgrounds
+############################################################################################
+*/
+.bgCell {
+	BACKGROUND-COLOR: #E6EDF7;
+}
+
+.bgblue {
+	background-color: #0077A9;
+}
+
+.bgLightBlue {
+	background-color: #E6EDF7;
+}
+
+.bgHeader {
+	background-color: #336699;
+}
+
+.bggray {
+	background-color: #E5E5E5;
+}
+
+/*
+############################################################################################
+##### Links e Botões
+############################################################################################
+*/
+.ButtonDefault,.buttonDefault,.buttonDefaultDisabled {
+	FONT-WEIGHT: bold;
+	COLOR: #FFFFFF;
+	BACKGROUND: #4D7497;
+	TEXT-DECORATION: none;
+	TEXT-ALIGN: center;
+}
+
+.ButtonDefault:hover,.buttonDefault:hover {
+	COLOR: #FFAE31;
+}
+
+.buttonDefaultDisabled {
+	COLOR: #789BBA;
+}
+
+/*
+############################################################################################
+##### Links
+############################################################################################
+*/
+.linkGlobal {
+	FONT-WEIGHT: bold;
+	COLOR: #1E4C7B;
+	TEXT-DECORATION: underline;
+}
+
+.linkGlobal:hover {
+	COLOR: #FFAE31;
+}
+
+.linkErrorMsg {
+	COLOR: #FF0000;
+	TEXT-DECORATION: none;
+}
+
+.linkErrorMsg:hover {
+	FONT-WEIGHT: bold;
+}
+
+.linkCell {
+	COLOR: #1E4C7B;
+	TEXT-DECORATION: underline;
+}
+
+.linkCellWhite {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: underline;
+}
+
+.linkCell:hover,.linkCellWhite:hover {
+	COLOR: #FFAE31;
+}
+
+.linkStep {
+	font-weight: normal;
+	color: #86B8F0;
+	text-decoration: none;
+}
+
+.linkStep:hover {
+	font-weight: normal;
+	color: #FFAE31;
+	text-decoration: none;
+}
+
+/* Descontinuado, substituido pelos .step e .stepActive, em body.css
+.linkTrain, .linkTrainActive, .linkTrainDisabled, .linkTrainVisited {
+  TEXT-DECORATION: none;
+}
+.linkTrain:hover, .linkTrainActive, .linkTrainVisited:hover {
+  FONT-WEIGHT: bold;
+}
+.linkTrain, .linkTrainActive {
+  COLOR: #FFAE31; 
+}
+.linkTrainVisited {
+  COLOR: #FCDA94;
+}
+.linkTrainDisabled {
+  COLOR: #A49787;
+}*/
+.icon {
+	cursor: default;
+}
+
+.linkToolTip {
+	font-style: italic;
+	color: #000000;
+	text-decoration: none;
+}
+
+.linkToolTip:hover {
+	color: #FFAE31;
+}
+
+.ShortcutFoldersLinks,.ShortcutFoldersLinksActive,.ShortcutFoldersLinksDisabled
+	{
+	FONT-WEIGHT: bold;
+	TEXT-DECORATION: none;
+	TEXT-ALIGN: center;
+	COLOR: #FFFFFF;
+}
+
+.ShortcutFoldersLinks,.ShortcutFoldersLinksDisabled {
+	BACKGROUND-COLOR: #336699
+}
+
+.ShortcutFoldersLinksActive {
+	BACKGROUND-COLOR: #FFAE31
+}
+
+.ShortcutFoldersLinksDisabled {
+	COLOR: #789BBA;
+}
+
+.ShortcutFoldersLinks:hover {
+	COLOR: #FFAE31;
+}
+
+.ShortcutFoldersLinksActive:hover {
+	COLOR: #000000;
+}
+
+/* 
+############################################################################################
+##### Tabelas
+############################################################################################
+*/
+.spanTable,.spanContent { /*scrollbar-DarkShadow-Color:#004080;
+  scrollbar-3dLight-Color:#0086BF;
+  scrollbar-Arrow-Color:#FFFFFF; 
+  scrollbar-Base-Color:#0077A9; 
+  scrollbar-Face-Color:#336699; 
+  scrollbar-Highlight-Color:#FFFFFF; 
+  scrollbar-Shadow-Color:#0077A9;
+  scrollbar-Track-Color:#6F9ECE;
+    border-right: 2px solid #336699;
+  border-bottom: 1px solid #336699; */
+	overflow: auto;
+	position: static;
+	z-index: 1;
+}
+
+.tableLabel {
+	FONT-WEIGHT: bold;
+	COLOR: #3366CC;
+	TEXT-DECORATION: none;
+	border-bottom: 1px solid #336699;
+}
+
+.tableHV,.tableH,.tableV,.tableClean {
+	COLOR: #000000;
+	background-color: #FFFFFF;
+	text-align: left;
+	border-top: 1px solid #336699;
+	border-left: 1px solid #336699;
+	vertical-align: baseline;
+}
+
+.tableH,.tableClean {
+	border-right: 1px solid #336699;
+}
+
+.tableV,.tableClean {
+	border-bottom: 1px solid #336699;
+}
+
+.tableHV tr,.tableH tr,.tableV tr,.tableClean tr {
+	height: 20px;
+}
+
+.tableHV th,.tableH th,.tableV th,.tableClean th {
+	FONT-WEIGHT: bold;
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: none;
+	white-space: nowrap;
+	background-color: #336699;
+}
+
+.tableHV th,.tableH th,.tableV th,.tableClean,.tableHV td,.tableH td,.tableV td,.tableClean td
+	{
+	padding-left: 2pt;
+	padding-right: 2pt;
+}
+
+.tableHV th,.tableH th {
+	border-bottom: 1px solid #FFFFFF;
+}
+
+.tableHV th,.tableV th {
+	border-right: 1px solid #FFFFFF;
+}
+
+.tableHV td {
+	border-right: 1px solid #336699;
+	border-bottom: 1px solid #336699;
+}
+
+.tableH td {
+	border-bottom: 1px solid #336699;
+}
+
+.tableV td {
+	border-right: 1px solid #336699;
+}
+
+.tableDataString,.tableDataStringReadOnly {
+	text-align: left;
+}
+
+.tableDataCurrency,.tableDataCurrencyReadOnly {
+	text-align: right;
+}
+
+.tableDataNumber,.tableDataNumberReadOnly {
+	text-align: right;
+}
+
+.tableDataDate,.tableDataDateReadOnly {
+	text-align: center;
+}
+
+.tableDataTime,.tableDataTimeReadOnly {
+	text-align: center;
+}
+
+.tableDataDateTime,.tableDataDateTimeReadOnly {
+	text-align: center;
+}
+
+.tableDataOption,.tableDataOptionReadOnly {
+	text-align: center;
+}
+
+.tableDataInnerTable {
+	padding: 10px;
+}
+
+.tableDataStringReadOnly,.tableDataCurrencyReadOnly,.tableDataNumberReadOnly,.tableDataDateReadOnly,.tableDataTimeReadOnly,.tableDataDateTimeReadOnly,.tableDataOptionReadOnly
+	{
+	COLOR: #1e4c7b;
+}
+
+.tableRowOdd { /* Linhas mpares */
+	background-color: #FFFFFF;
+}
+
+.tableRowEven { /* Linhas pares */
+	background-color: #E6EDF7;
+}
+
+.tableRowOddSelected,.tableRowEvenSelected,#tableColSelected {
+	background-color: #FFE8C5;
+}
+
+.tableDataIdent1,.tableDataIdent2 {
+	padding-top: 0px;
+	padding-right: 5px;
+	padding-bottom: 15px;
+}
+
+.tableDataIdent1 {
+	padding-left: 21px;
+}
+
+.tableDataIdent2 {
+	padding-left: 41px;
+}
+
+/* 
+############################################################################################
+##### Treeview
+############################################################################################
+*/
+.linkTreeview {
+	FONT-WEIGHT: bold;
+	COLOR: #1E4C7B;
+	TEXT-DECORATION: none;
+}
+
+.linkTreeview:hover {
+	COLOR: #FFAE31;
+}
+
+.linkTreeview:active {
+	COLOR: #FFAE31;
+}
+
+.linkTreeviewSelected {
+	FONT-WEIGHT: bold;
+	COLOR: #3366CC;
+	TEXT-DECORATION: none;
+	TEXT-TRANSFORM: uppercase;
+}
+
+.linkTreeviewActive {
+	FONT-WEIGHT: bold;
+	COLOR: #FFAE31;
+	TEXT-DECORATION: none;
+}
+
+.textTreeview {
+	FONT-WEIGHT: bold;
+	COLOR: #1E4C7B;
+	TEXT-DECORATION: none;
+}
+
+.textCurrentTreeview {
+	FONT-WEIGHT: bold;
+	COLOR: #FFAE31;
+	TEXT-DECORATION: none;
+}
+
+SPAN.TreeviewSpanArea { /*scrollbar-DarkShadow-Color=#004080;
+  scrollbar-3dLight-Color=#0086BF;
+  scrollbar-Arrow-Color=#FFFFFF; 
+  scrollbar-Base-Color=#0077A9; 
+  scrollbar-Face-Color=#336699; 
+  scrollbar-Highlight-Color=#FFFFFF; 
+  scrollbar-Shadow-Color=#0077A9; 
+  scrollbar-Track-Color=#6F9ECE; */
+	overflow: auto;
+	position: static;
+	z-index: 1;
+}
+
+SPAN.TreeviewSpanArea A {
+	text-decoration: none;
+	color: #1E4C7B;
+}
+
+SPAN.TreeviewSpanArea A:hover {
+	color: #FFAE31;
+	font-weight: bold;
+}
